@@ -1,14 +1,15 @@
 
 import { NavBar } from "./components/NavBar/NavBar";
-// src/index.js o src/App.js
+import { ItemsListContainer } from "./components/ItemsListContainer/ItemsListContainer";
 import "bulma/css/bulma.min.css";
 import "./App.css";
 
 
 function App() {
     return (
-        <div>
+        <div className="contenedor">
             <NavBar/>
+            <ItemsListContainer greeting={'Bienvenido a tu tienda de decoración!'}/>
         </div>
     )
 }
