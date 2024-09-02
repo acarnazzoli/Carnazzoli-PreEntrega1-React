@@ -1,5 +1,6 @@
 import { CartWidget } from "./Components/CartWidgets/CartWidget";
 import "bulma/css/bulma.css";
+import "./Components/NavBar.css"
 
 
 
@@ -9,7 +10,7 @@ export const NavBar = () => {
             <nav className="navbar is-danger">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="#">
-                        Paneles-FT
+                        <img src="/logo.png" alt="Logo" />
                     </a>
                     <div className="navbar-burger burger" data-target="navbarMenu">
                         <span></span>
@@ -34,6 +35,7 @@ export const NavBar = () => {
                     </div>
                 </div>
             </nav>
+            <h1>Paneles FT</h1>
             <CartWidget />
         </>
     )
