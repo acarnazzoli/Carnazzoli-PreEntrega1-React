@@ -21,16 +21,16 @@ export const NavBar = () => {
                 <div id="navbarMenu" className="navbar-menu">
                     <div className="navbar-start">
                         <a className="navbar-item" href="#">
-                            Inicio
+                            Dormitorios
                         </a>
                         <a className="navbar-item" href="#">
-                            Productos
+                            Espacios Comunes
                         </a>
                         <a className="navbar-item" href="#">
-                            Nosotros
+                            Infantiles
                         </a>
                         <a className="navbar-item" href="#">
-                            Contacto
+                            Oficinas
                         </a>
                     </div>
                 </div>
